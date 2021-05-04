@@ -1,0 +1,57 @@
+footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $blanco;
+    border-top: $azul 2px solid;
+    margin-top: 1.25em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;    
+    div{
+        display: inline-flex;
+        flex-direction: row;
+        margin-bottom: 1.25em;
+        margin-right: 1.25em;
+        p{
+            display: inline-block;
+            color: $negro;
+            font-family: $font;
+            margin-top: 1.5625em;
+        }
+        form{
+            margin-left: 0.9375em;
+            input{
+                @include box(12.5em, $gris);
+                transition: 500ms;
+                &:hover{
+                    @include box(12.5em, $rosa)
+                }
+            }
+            button{
+                margin-top: 0.9375em;
+                padding: 0.375em 0.9375em;
+                background-color: $blanco;
+                transition: 500ms;
+                border: $violeta 2px solid;
+                &:hover{
+                    border: $celeste 2px solid;
+                }
+                img{
+                    margin-left: .1875em;
+                }
+            }
+
+        }
+        a{
+            display: inline-flex;
+            padding: .3125em;
+            img{
+                display: inline-block;
+                margin-top: 1.5625em;
+                width: 1.875em;
+                height: 1.875em;
+            }
+        }
+    }
+}
