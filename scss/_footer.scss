@@ -22,10 +22,10 @@ footer{
         form{
             margin-left: 0.9375em;
             input{
-                @include box(12.5em, $gris);
+                @include box(12.5em, $gris, 3%);
                 transition: 500ms;
                 &:hover{
-                    @include box(12.5em, $rosa)
+                    @include box(12.5em, $rosa, 3%)
                 }
             }
             button{
