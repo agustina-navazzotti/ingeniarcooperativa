@@ -2,45 +2,43 @@
 <html>
 <head>
 	<meta charset=utf-8>
-	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" type="image/png" href="../media/icon.png" sizes="32x32">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 	<title>Recibe</title>
 </head>
 <body>
 	<header>
-		<nav>
-			<a href="../index.html"> 
-				<img src="../media/logoingeniar.svg" alt="Isologotipo Ingeniar Cooperativa">
-			</a>
-		    <ul>
-			       <li><a href="nosotros.html">Nosotros</a></li>
-			       <li><a href="Servicios.html">Servicios</a></li>
-			       <li><a href="trabajoenequipo.html">Trabajo en equipo</a></li>
-			       <li><a href="contacto.html">Contacto</a></li>
-			</ul>	    
-		</nav>
+		<header>
+			<nav>
+				<a href="../index.html"> 
+					<img src="../media/logoingeniar.svg" alt="Isologotipo Ingeniar Cooperativa">
+				</a>
+				<button>
+					Menú <i class="fas fa-ellipsis-v"></i>
+				</button>
+				<ul>
+					   <li><a href="nosotros.html">Nosotros</a></li>
+					   <li><a href="servicios.html">Servicios</a></li>
+					   <li><a href="trabajoenequipo.html">Trabajo en equipo</a></li>
+					   <li><a href="contacto.html">Contacto</a></li>
+				</ul>	    
+			</nav>
 	</header>
-		<div>
-			<img src="../media/acavaunaimagen.png" alt="Acá va una imagen">
-			<h3 class="type-h2">¡Gracias por escribirnos!</h3>
-			<p>Responderemos tu consulta en breve</p>
+		<div class="textoCentrado recibe">
+			<i class="fas fa-hand-holding-heart recibe__Icon"></i>
+			<h3 class="type-h2 c-blanco">¡Gracias por escribirnos!</h3>
+			<p>Responderemos tu consulta a la brevedad</p>
 		</div>
-	<footer>
-		<div>
-			<h5>¿Querés recibir nuestras novedades? Suscribite</h5>
-				<form action="../pages/suscripción.html" method="get">
-						<input type="email" placeholder="Ingrese su email" autocomplete="off"/>
-						<button type="submit"><img src="../media/arrow-right.svg" alt="Suscribite"></button> 
-				</form>
-		</div>
-		<div>
-			<h5>Seguinos en nuestras redes sociales</h5>
-				<div>
-					<a href="https://www.facebook.com/ingeniarcoop" target="_blank"><img src="../media/Facebook_Icono-05.svg" alt="Visitá Facebook"></a>
-					<a href="https://www.instagram.com/ingeniarcoop/" target="_blank"><img src="../media/Instagram_Icono-05.svg" alt="Visitá instagram"></a>
-				</div>
-		</div>
+	<footer class="textoCentrado">
+		<h5 class="type-light">Seguinos en nuestras redes sociales</h5>
+		<p class="type-h3"><a href="https://www.facebook.com/ingeniarcoop" target="_blank"><i class="fab fa-facebook" alt="Visitá Facebook"></i></a>      |     
+		<a href="https://www.instagram.com/ingeniarcoop/" target="_blank"><i class="fab fa-instagram-square" alt="Visitá instagram"></i></a></p>
 	</footer>
+	<script src="../js/efectos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

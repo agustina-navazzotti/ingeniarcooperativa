@@ -22,55 +22,65 @@
 			</button>
 		    <ul>
 			       <li><a href="nosotros.html">Nosotros</a></li>
-			       <li><a href="Servicios.html">Servicios</a></li>
+			       <li><a href="servicios.html">Servicios</a></li>
 			       <li><a href="trabajoenequipo.html">Trabajo en equipo</a></li>
 			       <li><a href="contacto.html">Contacto</a></li>
 			</ul>	    
 		</nav>
 	</header>
 		<section>
-			<div class="card mb-3">
+			<div>
 				<div class="row no-gutters">
-					<div class="col-12 col-md-5 textoIzquierda">
+					<div class="col-12 col-md-7 col-lg-5 textoIzquierda">
 						<div class="card-body">
-							<h1 class="type-h3 type-bold azul">IoT aplicado al agro</h1>
-							<p>Nos unimos con Cooperativa de trabajo IT10 y Consultora del Sur e implementamos tecnología IoT para crear una plataforma que posibilite el conocimiento de la profundidad de la napa freática en tiempo real.</p>
-							<p>Nuestro equipo, en conjunto con IT10 cooperativa, planifica la disposición y ubicación geográfica de nodos de sensado, sensores de profundidad y gateway, evaluando las condiciones ambientales, climáticas y del sitio donde se instalarán.</p>
-							<p>Nuestro desarrollo tiene como fin eficientizar el proceso de producción en el sector agropecuario.</p>		
-							<p>Freomap se transforma en una solución inteligente diseñada, con adaptación a los cambios climáticos y pensada especialmente para uso agropecuario</p>
+							<i class="fas fa-seedling servicios__iconD"></i>
+							<h1 class="type-h2 type-medium c-blanco">IoT aplicado al agro</h1>
+							<p><i class="fas fa-tint c-celeste"></i>  Nos unimos con Cooperativa de trabajo IT10 y Consultora del Sur e implementamos tecnología IoT para crear una plataforma que posibilite el conocimiento de la profundidad de la napa freática en tiempo real.</p>
+							<p><i class="fas fa-users c-celeste"></i>  Nuestro equipo, en conjunto con IT10 cooperativa, planifica la disposición y ubicación geográfica de nodos de sensado, sensores de profundidad y gateway, evaluando las condiciones ambientales, climáticas y del sitio donde se instalarán.</p>
+							<p><i class="fas fa-check c-celeste"></i>  Nuestro desarrollo tiene como fin eficientizar el proceso de producción en el sector agropecuario.</p>		
+							<p><i class="fas fa-lightbulb c-celeste"></i>  Freomap se transforma en una solución inteligente diseñada, con adaptación a los cambios climáticos y pensada especialmente para uso agropecuario.</p>
 						</div>
 					</div>
-					<div class="col-12 col-md-7">
-						<img src="../media/trabajo 1.jpg" srcset="../media/trabajo1mov.jpg 400w, ../media/trabajo1.jpg" width="100%" class="card-img servicios__img" alt="grupo de personas instalando sensores de produndidad de napa freática ">
+					<div class="col-11 col-md-5 col-lg-5 offset-lg-1">
+						<img src="../media/trabajo1.jpg" class="card-img trabajo__foto" alt="grupo de personas instalando sensores de produndidad de napa freática ">
+						<img src="../media/trabajotab2.jpg" class="card-img trabajo__foto--tab" alt="nodo de sensado">
 					</div>
 				</div>
 			</div>
-
-		<div>
-			<img src="../media/logoingeniar.svg" alt="Logo Ingeniar" width="30%">
-			<div class="button"><button type="submit" class="button__decoration"><i class="fas fa-plus"></i></button>
-			</div>
-			<img src="../media/logoit10.svg" alt="Logo IT10 Cooperativa" width="30%">
-			<div class="button"><button type="submit" class="button__decoration"><i class="fas fa-plus"></i></button>
-			</div>
-			<img src="../media/logoconsultora.svg" alt="Logo Consultora del Sur" width="30%">
-		</div>
-	</section>
-	<footer>
-		<div>
-			<p>¿Querés recibir nuestras novedades? Suscribite</p>
-				<form action="../pages/suscripción.html" method="get">
-						<input type="email" placeholder="Ingrese su email" autocomplete="off"/>
-						<button type="submit"><img src="../media/arrowright.svg" alt="Suscribite"></button> 
-				</form>
-		</div>
-		<div>
-			<p>Seguinos en nuestras redes sociales</p>
-				<div>
-					<a href="https://www.facebook.com/ingeniarcoop" target="_blank"><img src="../media/facebook.svg" alt="Visitá Facebook"></a>
-					<a href="https://www.instagram.com/ingeniarcoop/" target="_blank"><img src="../media/instagram.svg" alt="Visitá instagram"></a>
+			<div class="container-fluid row no-gutters">
+				<div class="col-12 col-md-3 col-lg-3">
+					<div class="card-body">
+						<a href="https://it10coop.com.ar" target="_blank"><img src="../media/logoit10.svg" alt="Logo IT10 Cooperativa" class="trabajo__logo"></a>
+					</div>
 				</div>
+				<div class="col-12 col-md-1 col-lg-1 textoCentrado">
+					<i class="fas fa-plus c-rosa type-h1 trabajo__icon"></i>
+				</div>
+				<div class="col-11 col-md-3 col-lg-3">
+					<div class="card-body">
+						<a href="../index.html" target="_blank"><img src="../media/logoingeniar.svg" alt="Logo Ingeniar" class="trabajo__logo"></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-1 col-lg-1 textoCentrado">
+					<i class="fas fa-plus c-rosa type-h1 trabajo__icon"></i>
+				</div>
+				<div class="col-12 col-md-3 col-lg-3">
+					<div class="card-body">
+						<a href="http://www.consultoradelsurcba.com.ar" target="_blank"><img src="../media/logoconsultora.svg" alt="Logo Consultora del Sur" class="trabajo__logo"></a>
+					</div>
+				</div>
+			</div>
+	</section>
+	<div class="col-11 offset-md-2 col-md-8 offset-md-2 trabajo__ficha text-center">
+		<div class="card-body">
+			<p class="card-text ficha__text type-h3">Conocé más sobre este desarrollo</p>
+			<a href="https://freomap.com.ar" target="_blank"><h5 class="type-h3"><i class="fas fa-tint ficha__i type-h2"></i></h5></a>
 		</div>
+	  </div>
+	<footer class="textoCentrado">
+			<h5 class="type-light">Seguinos en nuestras redes sociales</h5>
+			<p class="type-h3"><a href="https://www.facebook.com/ingeniarcoop" target="_blank"><i class="fab fa-facebook" alt="Visitá Facebook"></i></a>      |     
+			<a href="https://www.instagram.com/ingeniarcoop/" target="_blank"><i class="fab fa-instagram-square" alt="Visitá instagram"></i></a></p>
 	</footer>
 	<script src="../js/efectos.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -109,11 +109,15 @@
 
 .objfit{
     overflow-x: hidden;
-    overflow-y: visible;
+    overflow-y: hidden;
     padding-top: 13px;
 }
 
 .largo{
+    height: 560px;
+}
+
+.largoI{
     height: 560px;
 }
 
@@ -188,6 +192,10 @@
     .largo{
         height: 860px;
     }
+    .largoI{
+        height: 460px;
+        overflow: hidden;
+    }
     .order1{
         order: 2;
     }
@@ -258,6 +266,9 @@
         left: 10px;
     }
     .largo{
+        height: 460px;
+    }
+    .largoI{
         height: 460px;
     }
 }

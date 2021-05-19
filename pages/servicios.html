@@ -22,82 +22,169 @@
 			</button>
 		    <ul>
 			       <li><a href="nosotros.html">Nosotros</a></li>
-			       <li><a href="Servicios.html">Servicios</a></li>
+			       <li><a href="servicios.html">Servicios</a></li>
 			       <li><a href="trabajoenequipo.html">Trabajo en equipo</a></li>
 			       <li><a href="contacto.html">Contacto</a></li>
 			</ul>	    
 		</nav>
 	</header>
-	<section class="container-fluid servicios servicios__seccion">
-		<div class="card mb-3">
+	<section class="container-fluid">
+		<div>
 			<div class="row no-gutters">
-				<div class="col-12 col-md-5 textoIzquierda">
+				<div class="col-12 col-xl-4 textoIzquierdaS">
 					<div class="card-body">
-						<i class="fas fa-satellite-dish servicios__i" alt="Icono de telecomunicaciones"></i>
-						<h3 class="type-h3 type-bold celeste">Telecomunicaciones</h3>
-						<ul class="servicios__li">
-							<li>Plataformas de producción</li>
-							<li>Plataformas Open Source</li>
-							<li>Ingeniería IoT</li>
-							<li>Sistemas de plataforma con SIG integrados</li>
-							<li>Sistemas integrados con servicios de mapas WEB, WMS, WFS, WMTS, WCS, WPS</li>
-							<li>Sistemas integrados con mapas e imágenes satelitales nacionales y extranjeros</li>
-							<li>Sistemas integrados con con centrales meteorológicas</li>
+						<i class="fas fa-satellite-dish servicios__iconD" alt="Icono de telecomunicaciones"></i>
+						<h3 class="type-h2 type-medium c-blanco">Telecomunicaciones</h3>
+						<ul class="servicios__li type-regular">
+							<li><i class="fas fa-circle-notch c-celeste"></i>  Plataformas de producción</li>
+							<li><i class="fas fa-circle-notch c-celeste"></i>  Plataformas Open Source</li>
+							<li><i class="fas fa-circle-notch c-celeste"></i>  Ingeniería IoT</li>
+							<li>
+								<div class="accordion" id="accordionExample">
+									<div>
+										<div id="headingOne">
+											<p>
+											<button class="servicios__collapse text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												<i class="fas fa-circle-notch c-celeste"></i>  Sistemas integrados con    <i class="fas fa-chevron-down c-celeste"></i>
+											</button>
+											</p>
+										</div>
+										<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+											<div class="">
+												<ul class="servicios__liCollapse">
+													<li><i class="fas fa-circle-notch c-celeste"></i>  SIG</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Servicios de mapas WEB, WMS, WFS, WMTS, WCS, WPS</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Mapas e imágenes satelitales nacionales y extranjeros</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Centrales meteorológicas</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-12 col-md-7">
-					<img src="../media/servicios1.jpg" srcset="../media/servicios1mov.jpg 400w, ../media/servicios1.jpg" width="100%" alt="tecnología IoT">
-				</div>
-			</div>
-		</div>
-		<div class="card mb-3">
-			<div class="row no-gutters">
-				<div class="col-12 col-md-7">
-					<img src="../media/servicios2.jpg" srcset="../media/servicios2mov.jpg 400w, ../media/servicios2.jpg" width="100%" alt="progrmación backend y frontend">
-				</div>
-				<div class="col-12 col-md-5 textoDerecha">
-					<div class="card-body">
-						<i class="fas fa-bolt servicios__i--dif celeste"></i>
-						<h3 class="type-h3 type-bold celeste">Eléctrica</h3>
-						<ul class="servicios__li">
-							<li>Energías renovables (start up, desarrollo del proyecto, construcción, mantenimiento)</li>
-							<li>Smart Grid (análisis de eficiencia y evolución de los servicios eléctricos; optimización y reingeniería de activos eléctricos; sistemas adaptados a la demanda; gestión de energía y recursos; estudios de valoración del sistema eléctrico)</li>
-							<li>Monitoreo Web (de consumo, demanda y factor de potencia; de variables analógicas; centralización y consolidación de datos en un mismo sistema, submediciones por secciones o equipos, para prorrateo de costos)</li>
-						</ul>
-					</div>
+				<div class="col-12 col-xl-8">
+					<img src="../media/servicios1desk.png" srcset="../media/servicios1Mov.png 400w, ../media/servicios1desk.png" class="servicios__img" alt="tecnología IoT">
 				</div>
 			</div>
 		</div>
 	</section>
-	<section>	
-		<div class="textoCentrado servicios servicios__items">
-			<div class="col-12 col-md-3 offset-1 servicios__box">
-				<h5 class="type-h5 type-regular servicios__text">Todos nuestros proyectos son realizados a través de microservicios, clusterizados, obteniendo así un rápido despliegue, garantizando alta disponibilidad de los servicios.</h5>
-			</div>
-			<div class="col-12 col-md-3  offset-1 servicios__box">
-				<h5 class="type-h5 type-regular servicios__text--mod">Desarrollamos backend y frontend seguros y confiables, siguiendo protocolos y estándares.</h5>
-			</div>
-			<div class="col-12 col-md-3  offset-1 servicios__box">
-				<h5 class="type-h5 type-regular servicios__text--mod">Todos nuestros sistemas pueden ser construidos además con de APP móviles.</h5>
+
+	<section class="container-fluid">
+		<div>
+			<div class="row no-gutters order2">
+				<div class="col-12 col-xl-4 textoIzquierdaS">
+					<div class="card-body">
+						<i class="fas fa-bolt servicios__iconD" alt="Icono de telecomunicaciones"></i>
+						<h3 class="type-h2 type-medium c-blanco">Eléctrica</h3>
+						<ul class="servicios__li type-regular">
+							<li>
+								<div class="accordion" id="accordionExample">
+									<div>
+										<div id="headingOne">
+											<p>
+											<button class="servicios__collapse text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+												<i class="fas fa-circle-notch c-celeste"></i>  Smart Grid    <i class="fas fa-chevron-down c-celeste"></i>
+											</button>
+											</p>
+										</div>
+										<div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+											<div class="">
+												<ul class="servicios__liCollapse">
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Análisis de eficiencia y evolución de los servicios eléctricos</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Optimización y reingeniería de activos eléctricos</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Sistemas adaptados a la demanda</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Gestión de energía y recursos</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Estudios de valoración del sistema eléctrico</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="servicios__li type-regular">
+							<li>
+								<div class="accordion" id="accordionExample">
+									<div>
+										<div id="headingOne">
+											<p>
+											<button class="servicios__collapse text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+												<i class="fas fa-circle-notch c-celeste"></i>  Monitoreo Web    <i class="fas fa-chevron-down c-celeste"></i>
+											</button>
+											</p>
+										</div>
+										<div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+											<div class="">
+												<ul class="servicios__liCollapse">
+													<li><i class="fas fa-circle-notch c-celeste"></i>  De consumo, demanda y factor de potencia</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  De variables analógicas/li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Centralización y consolidación de datos en un mismo sistema, submediciones por secciones o equipos, para prorrateo de costos</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="servicios__li type-regular">
+							<li>
+								<div class="accordion" id="accordionExample">
+									<div>
+										<div id="headingOne">
+											<p>
+											<button class="servicios__collapse text-left" type="button" data-toggle="collapse" data-target="#collapseFor" aria-expanded="true" aria-controls="collapseFor">
+												<i class="fas fa-circle-notch c-celeste"></i>  Energías renovables    <i class="fas fa-chevron-down c-celeste"></i>
+											</button>
+											</p>
+										</div>
+										<div id="collapseFor" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+											<div class="">
+												<ul class="servicios__liCollapse">
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Start up</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Desarrollo del proyecto</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Construcción</li>
+													<li><i class="fas fa-circle-notch c-celeste"></i>  Mantenimiento</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-xl-8 order1">
+					<img src="../media/servicios2desk.png" srcset="../media/servicios2Mov.png 700w, ../media/servicios2desk.png" class="servicios__img2" alt="tecnología IoT">
+				</div>
 			</div>
 		</div>
 	</section>
-	<footer>
-		<div>
-			<p>¿Querés recibir nuestras novedades? Suscribite</p>
-				<form action="../pages/suscripción.html" method="get">
-						<input type="email" placeholder="Ingrese su email" autocomplete="off"/>
-						<button type="submit"><img src="../media/arrowright.svg" alt="Suscribite"></button> 
-				</form>
-		</div>
-		<div>
-			<p>Seguinos en nuestras redes sociales</p>
-				<div>
-					<a href="https://www.facebook.com/ingeniarcoop" target="_blank"><img src="../media/facebook.svg" alt="Visitá Facebook"></a>
-					<a href="https://www.instagram.com/ingeniarcoop/" target="_blank"><img src="../media/instagram.svg" alt="Visitá instagram"></a>
+	<section>
+		<div class="container-fluid row no-gutters servicios__items">
+			<div class="col-12 col-md-12 col-lg-3 ficha text-center">
+				<div class="card-body">
+				  <p class="card-text ficha__text">Todos nuestros proyectos son realizados a través de microservicios, customizados, obteniendo así un rápido despliegue, garantizando alta disponibilidad de los servicios.</p>
 				</div>
+			  </div>
+			  <div class="col-12 col-md-12 col-lg-3 ficha text-center">
+				<div class="card-body">
+				  <p class="card-text ficha__text">Desarrollamos backend y frontend seguros y confiables, siguiendo protocolos y estándares.</p>
+				</div>
+			  </div>
+			  <div class="col-12 col-md-12 col-lg-3 ficha text-center">
+				<div class="card-body">
+					<p class="card-text ficha__text">Todos nuestros sistemas pueden ser construidos además con de APP móviles.</p>
+				</div>
+			  </div>
 		</div>
+	</section>
+	<footer class="textoCentrado">
+		<h5 class="type-light">Seguinos en nuestras redes sociales</h5>
+		<p class="type-h3"><a href="https://www.facebook.com/ingeniarcoop" target="_blank"><i class="fab fa-facebook" alt="Visitá Facebook"></i></a>      |     
+		<a href="https://www.instagram.com/ingeniarcoop/" target="_blank"><i class="fab fa-instagram-square" alt="Visitá instagram"></i></a></p>
 	</footer>
 	<script src="../js/efectos.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
